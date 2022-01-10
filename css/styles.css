@@ -1,0 +1,171 @@
+body{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar{
+  background-color: #FF5959;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4rem;
+  font-weight: bolder;
+  text-transform: lowercase;
+}
+.logo{
+  font-size: 3rem;
+  padding-right: 5px;
+}
+#title{
+  background-color: #FF5959;
+  padding: 15px;
+}
+.con-title{
+  padding: 40px;
+}
+.title-txt{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  padding-bottom: 2.5rem;
+}
+
+.btn{
+  margin-right: 2rem;
+}
+
+.img-title{
+  transform: rotate(25deg);
+  width: 70%;
+  height: 40%;
+  position: relative;
+}
+
+#features{
+  background-color: white;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.features-icon{
+  color: #FF5959;
+  font-size: 4rem;
+}
+.features-icon:hover{
+  color: red;
+}
+.feature-p{
+  color: #8f8f8f;
+  font-size: 0.8rem;
+}
+.feature-h{
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+/* testimonials */
+#testimonials{
+  background-color: #FF6D6D;
+  padding: 20px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.testi-img{
+  border-radius: 100%;
+  margin-top: 2%;
+  margin-right: 4%;
+  width: 15%;
+}
+em{
+  font-size: 1.5rem;
+}
+.testi-title{
+  font-weight: bolder;
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.testi-con{
+  background-color: #FFA0A0;
+  padding: 4% 0;
+  border-radius: 20px;
+}
+/* press section */
+#press{
+  background-color: #FF6D6D;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.pre-img{
+  align-content: center;
+  align-self:
+  padding: 0 4%;
+  margin: 0 2%;
+  width: 15%;
+}
+/* pricing section */
+#pricing{
+  margin-top: 3%;
+  margin-bottom: 2%;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.pric-sub{
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: lighter;
+}
+.card-title{
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: bolder;
+  color: black;
+}
+.card-sub{
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: lighter;
+  color: red;
+}
+
+/* cta section */
+#cta{
+  text-align: left;
+  margin-top: 3%;
+  padding: 3% 0;
+  background-color: #F7F7F7;
+
+}
+.find-txt{
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 2;
+}
+#footer{
+  background-color: red;
+  margin-bottom: 0;
+  padding: 1.5%;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: space-around;
+}
+
+.footer-con{
+  text-align: center;
+  justify-content: end;
+  align-items: end;
+  color: white;
+}
